@@ -3,7 +3,7 @@
   
 Benchmark apps for static analyzing native world of Android applications.
 
-+ 2021 Nov 16 
++ First: 2021 Nov 16 
 
 15 apps 
 
