@@ -3,10 +3,10 @@
   
 Benchmark apps for static analyzing native world of Android applications.
 
-+ 2021 Nov 16 \ 
++ 2021 Nov 16 
 
-15 apps \ 
+15 apps 
 
-In CCBench, native code contains __android_log_print,else\ 
+In CCBench, native code contains __android_log_print,else
 
-In CCBench_jucify,native code contains LOG\ 
+In CCBench_jucify,native code contains LOG
