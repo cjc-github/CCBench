@@ -10,3 +10,25 @@ Benchmark apps for static analyzing native world of Android applications.
 In CCBench, native code contains __android_log_print,else
 
 In CCBench_jucify,native code contains LOG
+
+ccbench
+
+|                               | real Leak | JN-SAF | JuCify | JNFuzz-Droid |
+| ----------------------------- | --------- | ------ | ------ | ------------ |
+| condition1.apk                | √         | ×      | √      | √            |
+| explosion_path2.apk           | √         | ×      | √      | √            |
+| math_library.apk              | √         | ×      | ×      | √            |
+| smt1.apk                      | ×         | √      | ×      | ×            |
+| switch1.apk                   | ×         | √      | ×      | ×            |
+| while1.apk                    | √         | ×      | √      | √            |
+| atoll.apk                     | √         | ×      | ×      | √            |
+| strcpy.apk                    | √         | ×      | √      | √            |
+| strcpy1.apk                   | √         | ×      | ×      | √            |
+| tcp_client.apk                | √√        | ××     | √×     | √√           |
+| udp_client.apk                | √√        | ××     | √×     | √√           |
+| native_metho_overloading.apk  | √         | √      | ×      | √            |
+| native_metho_overloading1.apk | √         | ×      | √      | √            |
+| interrupt_cfg.apk             | √         | ×      | √      | √            |
+| weak.apk                      | √         | ×      | √      | √            |
+| log_noleak.apk                | ×         | ×      | √      | ×            |
+
