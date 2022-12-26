@@ -5,7 +5,7 @@ Benchmark apps for static analyzing native world of Android applications.
 
 + First: 2021 Nov 16 
 
-15 apps 
+16 apps 
 
 In CCBench, native code contains __android_log_print,else
 
