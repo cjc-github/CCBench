@@ -32,3 +32,15 @@ ccbench
 | weak.apk                      | √         | ×      | √      | √            |
 | log_noleak.apk                | ×         | ×      | √      | ×            |
 
+
++ 2022 Nov 31
+add arm arch alone
+
+|                               | real Leak | JN-SAF | JuCify | JNFuzz-Droid |
+| ----------------------------- | --------- | ------ | ------ | ------------ |
+| armeabi.apk                   | √         | ×      | √      | √            |
+| armeabi_v7a.apk               | √         | ×      | √      | √            |
+| arm64_v8a.apk                 | √         | ×      | ×      | √            |
+
+
+
