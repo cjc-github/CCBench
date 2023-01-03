@@ -38,9 +38,19 @@ add arm arch alone
 
 |                               | real Leak | JN-SAF | JuCify | JNFuzz-Droid |
 | ----------------------------- | --------- | ------ | ------ | ------------ |
-| armeabi.apk                   | √         | ×      | √      | √            |
-| armeabi_v7a.apk               | √         | ×      | √      | √            |
+| armeabi.apk                   | √         | √      | √      | √            |
+| armeabi_v7a.apk               | √         | √      | √      | √            |
 | arm64_v8a.apk                 | √         | ×      | ×      | √            |
+
++ 2023 Jau 1
+add thread apk
+
+|                               | real Leak | JN-SAF | JuCify | JNFuzz-Droid |
+| ----------------------------- | --------- | ------ | ------ | ------------ |
+| thread.apk                    | √         | √      | √      | √            |
+| thread_in_leak.apk            | √         | √      | √      | √            |
+| thread_noleak.apk             | ×         | ×      | ×      | √            |
+| global_imei.apk               | √         | √      | ×      | √            |
 
 
 
