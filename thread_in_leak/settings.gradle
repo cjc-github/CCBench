@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "thread_in_leak"
