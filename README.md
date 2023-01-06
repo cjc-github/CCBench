@@ -40,7 +40,7 @@ add arm arch alone
 | ----------------------------- | --------- | ------ | ------ | ------------ |
 | armeabi.apk                   | √         | √      | √      | √            |
 | armeabi_v7a.apk               | √         | √      | √      | √            |
-| arm64_v8a.apk                 | √         | ×      | ×      | √            |
+| arm64_v8a.apk                 | √         | ×      | √      | √            |
 
 + 2023 Jau 1
 add thread apk
