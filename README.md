@@ -49,8 +49,8 @@ add thread apk
 | ----------------------------- | --------- | ------ | ------ | ------------ |
 | thread.apk                    | √         | √      | √      | √            |
 | thread_in_leak.apk            | √         | √      | √      | √            |
-| thread_noleak.apk             | ×         | ×      | ×      | √            |
-| global_imei.apk               | √         | √      | ×      | √            |
+| thread_noleak.apk             | ×         | ×      | ×      | ×            |
+| global_imei.apk               | √         | √      | √      | √            |
 
 
 
